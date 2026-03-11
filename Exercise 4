@@ -1,0 +1,22 @@
+def replace_all_letters(text,subject,replace_with):
+    return text.replace(subject, replace_with)
+
+Write a function called replace_all_letters(text, letter, substitute) that takes three parameters as follows:
+Parameters:
+ 
+  text: a nonempty string representing some text
+  letter: a string representing a single letter to be substituted in the text
+  substitute: a string representing a single letter to substitute the letter parameter
+ 
+The function returns:
+ 
+  A string containing the original text with ALL occurrences of letter replaced
+  by the substitute.
+
+Example:
+  Arguments:
+      text: "Mas sabe el diablo por viejo que por diablo"
+      letter: " " (a space)
+      substitute: "_" (an underscore)
+  Returns:
+      'Mas_sabe_el_diablo_por_viejo_que_por_diablo'
