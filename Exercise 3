@@ -1,0 +1,24 @@
+def length_of_last_word(s):
+    return len(s.split()[-1])
+
+Write a function called length_of_last_word(s) that takes one parameter as follows:
+
+Parameters:
+
+  s: a string containing words made up strictly of alphabetical characters and spaces
+
+The function returns:
+
+  An int representing the length of the last word in the parameter string s.
+
+A word is defined as a maximal substring consisting only of non-space characters.
+
+Example:
+  Arguments:
+    s: "Hello World"
+
+  Returns:
+    5
+
+  Explanation:
+    The last word is "World", which has a length of 5.
